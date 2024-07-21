@@ -31,6 +31,7 @@ El componente también puede ser adaptado para aplicaciones web o móviles que n
 
 - **Java JDK 8 o superior.**
 - **IDE con soporte para Swing si se desea visualizar el componente gráficamente (por ejemplo, NetBeans o IntelliJ IDEA).**
+- **Asegurate de que en la carpeta de librerias se encuentre el archivo jCalendar.jar.**
 
 ## Instalación
 
