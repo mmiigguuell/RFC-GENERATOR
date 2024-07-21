@@ -59,3 +59,4 @@ Para usar estos componentes, sigue estos pasos:
 ## Autores
 
 Miguel Ángel González Vásquez.
+Paola Hernández Lázaro.
