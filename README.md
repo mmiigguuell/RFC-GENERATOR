@@ -55,3 +55,6 @@ Para usar estos componentes, sigue estos pasos:
 1. Incluye el componente no visual en tu proyecto.
 2. Llámalo en tu código para generar la homoclave.
 
+## Autores
+
+Miguel Ángel González Vásquez.
