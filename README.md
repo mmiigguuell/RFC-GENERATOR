@@ -6,6 +6,21 @@ Este componente Java permite generar un RFC de forma fácil y rápida. Está dis
 
 El componente desarrollado consta de dos clases principales, `GeneradorRFCVisual` y `GeneradorHomoclave`, diseñadas para trabajar conjuntamente con el objetivo de generar RFCs completos y gestionar su interacción con el usuario a través de una interfaz gráfica.
 
+## Métodos usados
+
+# Ejemplo de Tabla con Alineación
+
+|  Componente visual| |
+|:------------|:----:|
+| Método      | Explicación |
+| LeerDatos()  |  Este método declara distintas variables para después tomar los valores que ingresa el usuario en los cuadros de texto y guardar esa información en sus respectivas variables. De igual forma manda un mensaje de error en caso de que el usuario no rellene todos los campos.  |
+| generarRFC(String nombre, String apellidoPaterno, String apellidoMaterno, Date fechaNacimiento) |  Este método tiene como parametro todos los valores necesarios para generar el RFC del usuario, mediante el metodo charAt() extraemos la primer letra del apellido, la primer vocal del apellido, la primer letra de nombre y la fecha de nacimiento del usuario, cada letra extraida se va concatenando en una variable de tipo String llamada rfc.  |
+
+|  Componente NO visual| |
+|:------------|:----:|
+| Método      | Explicación |
+| generarHomoclave() |  La función de este método es generar la Homoclave, el cual son los 3 ultimos digitos que se encuentran al final del RFC. Esto lo hará mediante la clase Random() el cual, como bien sabemos muestra numeros o valores aleatorios segun se especifique, en este caso, creamos una variable de tipo StringBuilder para guardar nuestro RFC, se llamará homoclave, después creamos una cadena que contendrá las vocales de la a a la u en miniscula y mayuscula, y mediante un ciclo for, iremos guardando en la variable homoclave las letras aleatorias que nos dará la clase Random(). | 
+
 ## Usos
 
 ### Aplicación enfocada a la creación de RFC
@@ -56,7 +71,12 @@ Para usar estos componentes, sigue estos pasos:
 1. Incluye el componente no visual en tu proyecto.
 2. Llámalo en tu código para generar la homoclave.
 
+### Link de YOUTUBE.
+
+Acontinuación se encuentra el link de un video en youtube donde se muestra la forma de usar el componente ya agregado en la paleta: https://youtu.be/neGwxGshmkg
+
 ## Autores
 
 Miguel Ángel González Vásquez.
+
 Paola Hernández Lázaro.
